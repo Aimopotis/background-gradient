@@ -1,0 +1,100 @@
+html, body{
+  height: 100%;
+}
+
+h2{
+  color: #fff;
+  padding: 1em;
+}
+
+#linear-top{
+  width: 40%;
+  height: 30%;
+  background: linear-gradient(red, yellow);
+}
+
+#linear-right{
+  width: 40%;
+  height: 30%;
+  background: linear-gradient(to right, red , yellow);
+}
+
+#linear-diagonal{
+  width: 40%;
+  height: 30%;
+  background: linear-gradient(to right bottom, red , yellow);
+}
+
+
+#linear-angle{
+  width: 40%;
+  height: 30%;
+  background: linear-gradient(-60deg, red , yellow);
+}
+
+#linear-multiple{
+  width: 40%;
+  height: 30%;
+  background: linear-gradient( to right, blue, red , yellow);
+}
+
+#linear-transperacy{
+  width: 40%;
+  height: 30%;
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+#linear-repeating{
+  width: 40%;
+  height: 30%;
+  background: repeating-linear-gradient( to right, blue, red 10% , yellow 20%);
+}
+
+#radial-gradient{
+  width: 40%;
+  height: 30%;
+  background: radial-gradient(red, yellow,green);
+}
+
+#radial-different{
+  width: 40%;
+  height: 30%;
+  background: radial-gradient(red, yellow 30%,green 50%);
+}
+
+#radial-shape{
+  width: 40%;
+  height: 30%;
+  background: radial-gradient(circle, red, yellow 20%, green 60%);
+}
+
+#radial-closest-side{
+  width: 40%;
+  height: 30%;
+  background: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+}
+
+#radial-farthest-side{
+  width: 40%;
+  height: 30%;
+  background: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+}
+
+
+#radial-closest-corner{
+  width: 40%;
+  height: 30%;
+  background: radial-gradient(closest-corner at 60% 55%, red, yellow, black); 
+}
+
+#radial-farthest-Corner{
+  width: 40%;
+  height: 30%;
+  background: radial-gradient(farthest-corner at 60% 55%, red, yellow, black); 
+}
+
+#radial-repeating{
+  width: 40%;
+  height: 30%;
+  background: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
